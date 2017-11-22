@@ -1,0 +1,33 @@
+<html>
+  <head>
+    <style type="text/css">
+      body {
+        background: black;
+        color: white;
+      }
+      div.container {
+        max-width: 500px;
+        margin: 100px auto;
+        border: 20px solid white;
+        padding: 10px;
+        text-align: center;
+      }
+      h4 {
+        text-transform: uppercase;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <img src="https://4232ede8026b4f991cb1-5ae67ba1cd4fb41880d908fe138fa0c3.ssl.cf1.rackcdn.com/ECS%20Logo2.png" width="40%"/>
+      <h1>Thank you for attending!</h1>
+      <h4>Enjoy some Christmas GIFs</h4>
+      <p>Processed by container ID</p>
+      <p><b>{{hostname}}</b></p>
+      <form id="choice" name='form' method="GET" action="/">
+            <button id="reload" type="submit" name="reload" class="btn">Give me more pets!</button> 
+      </form>
+      <img src="{{url}}" />
+    </div>
+  </body>
+</html>
