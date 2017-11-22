@@ -86,7 +86,7 @@ This will return the installed versions for both packages.
 To clone the files needed for this playground:
 
 ```
-git clone https://github.com/ForestTechnologiesLtd/devopsplayground16-aks.git
+git clone https://github.com/ecsdigital/devopsplayground16-aks.git
 ```
 
 ## Building the container
